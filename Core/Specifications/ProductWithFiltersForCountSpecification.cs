@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Core.Specifications
 {
-    class ProductWithFiltersForCountSpecification : BaseSpecification<ProductEntity>
+    public class ProductWithFiltersForCountSpecification : BaseSpecification<ProductEntity>
     {
         public ProductWithFiltersForCountSpecification(ProductSpecParams productParams)
             : base(x =>
